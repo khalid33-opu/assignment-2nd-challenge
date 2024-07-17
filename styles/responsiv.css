@@ -1,14 +1,58 @@
 @media screen and (max-width:576px) {
     .nav-bar {
-   
+
         padding: 20px 16px;
-        
+
     }
+
     .nav-bar>ul {
         display: none;
-        
+
     }
-    .manue-bar{
+
+    .manue-bar {
         display: block;
     }
+
+
+
+
+
+
+    .banner {
+        flex-direction: column;
+        padding: 0 16px;
+        gap: 60px;
+    }
+
+    .banner-element-1,
+    .banner-element-2 {
+        width: 100%;
+    }
+
+    .banner-element-1 h2 { 
+        font-size: 36px;
+       
+
+    }
+    .stylish-font{
+        font-size: 36px;
+
+    }
+
+    .btn {
+        padding: 16px 30px;
+        
+    }
+
+    .card-1 {
+        
+        bottom: 200px;
+        left: 20px;
+    }
+    .card-2 {
+        top: 0px;
+        right: 0px;
+    }
+
 }

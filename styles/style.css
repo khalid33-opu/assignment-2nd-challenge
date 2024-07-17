@@ -224,11 +224,47 @@ header {
 .habit-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 14px;
-  
+
 }
-.habit-content-container{
+
+.habit-content-container {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
     align-items: center;
+}
+
+.ad-banner {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 165px;
+    margin-top: 100px;
+    background-color: rgb(34, 34, 34);
+    padding: 54px;
+    border-radius: 18px;
+}
+
+.ad-banner-content-1,
+.ad-banner-content-2 {
+    width: 50%;
+}
+
+.ad-banner-content-2 img {
+    width: 100%;
+    border-radius: 18px;
+}
+
+.ad-banner-content-1 h2 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+
+}
+
+.ad-banner-content-1 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    margin:34px 0;
 }

@@ -28,6 +28,33 @@
     color: white;
 }
 
+/* common heading classes */
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading-content {
+    max-width: 675px;
+    text-align: center;
+}
+
+.heading-content h1 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 16px;
+
+
+}
+
+.heading-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+
+}
+
 /* header style */
 header {
     background: linear-gradient(180deg, rgb(17, 17, 17), rgba(0, 0, 0, 0.755));
@@ -101,11 +128,13 @@ header {
 }
 
 .banner-element-1 h2 {
-    color: rgb(255, 255, 255);    font-size: 78px;
+    color: rgb(255, 255, 255);
+    font-size: 78px;
     font-weight: 900;
 
 }
-.stylish-font{
+
+.stylish-font {
     font-family: "Dancing Script", cursive;
     font-size: 78px;
     font-weight: 900;
@@ -147,6 +176,7 @@ header {
     font-weight: 900;
 
 }
+
 .card-2 h3 {
     font-size: 24px;
     font-weight: 900;
@@ -163,4 +193,42 @@ header {
     position: absolute;
     top: 125px;
     right: 50px;
+}
+
+
+
+/* Change habit style */
+.first-seciton {
+    background-color: black;
+    padding: 100px 0;
+}
+
+.habit-content {
+    color: white;
+    width: 250px;
+    text-align: center;
+}
+
+.habit-img-container img {
+    border-radius: 100%;
+}
+
+.habit-content h3 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 12px 0;
+
+}
+
+.habit-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+  
+}
+.habit-content-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    align-items: center;
 }

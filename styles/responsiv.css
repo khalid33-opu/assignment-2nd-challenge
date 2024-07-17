@@ -55,4 +55,15 @@
         right: 0px;
     }
 
+
+
+
+    .habit-content-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .heading-content h1 {
+        font-size: 32px;
+    }
+
 }

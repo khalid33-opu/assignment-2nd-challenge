@@ -100,8 +100,15 @@
     .div-2 {
         width: 100%;
     }
-    .bmi-calculator-section{
+
+    .bmi-calculator-section {
         padding: 34px 16px;
+    }
+
+    .trainer-dis-container {
+        
+        grid-template-columns: repeat(1, 1fr);
+        
     }
 
 

@@ -106,9 +106,18 @@
     }
 
     .trainer-dis-container {
-        
+
         grid-template-columns: repeat(1, 1fr);
-        
+
+    }
+
+    .footer-container {
+        padding: 0 16px;
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    .first-column{
+        grid-column: span 1;
     }
 
 

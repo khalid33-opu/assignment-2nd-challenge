@@ -1,0 +1,14 @@
+@media screen and (max-width:576px) {
+    .nav-bar {
+   
+        padding: 20px 16px;
+        
+    }
+    .nav-bar>ul {
+        display: none;
+        
+    }
+    .manue-bar{
+        display: block;
+    }
+}

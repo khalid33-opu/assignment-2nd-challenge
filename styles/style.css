@@ -31,7 +31,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 60px;
+    padding: 60px 16px;
+    
 }
 
 .nav-bar>ul {
@@ -40,7 +41,10 @@ header {
     align-items: center;
     gap: 45px;
 }
-
+.manue-bar{
+    color: white;
+    display: none;
+}
 .active-route {
     border-radius: 46px;
     padding: 12px 18px;

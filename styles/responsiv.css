@@ -30,26 +30,28 @@
         width: 100%;
     }
 
-    .banner-element-1 h2 { 
+    .banner-element-1 h2 {
         font-size: 36px;
-       
+
 
     }
-    .stylish-font{
+
+    .stylish-font {
         font-size: 36px;
 
     }
 
     .btn {
         padding: 16px 30px;
-        
+
     }
 
     .card-1 {
-        
+
         bottom: 200px;
         left: 20px;
     }
+
     .card-2 {
         top: 0px;
         right: 0px;
@@ -58,12 +60,32 @@
 
 
 
-    .habit-content-container{
+    .habit-content-container {
         flex-direction: column;
         gap: 40px;
     }
+
     .heading-content h1 {
         font-size: 32px;
     }
+
+    .ad-banner-content-1,
+    .ad-banner-content-2 {
+        width: 100%;
+    }
+
+    .ad-banner {
+       flex-direction: column;
+       padding: 30px;
+       gap: 30px;
+       
+    }
+    .add-banner-button{
+        width: 100%;
+    }
+    .second-banner{
+        padding: 0 16px;
+    }
+
 
 }

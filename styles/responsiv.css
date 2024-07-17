@@ -75,16 +75,33 @@
     }
 
     .ad-banner {
-       flex-direction: column;
-       padding: 30px;
-       gap: 30px;
-       
+        flex-direction: column;
+        padding: 30px;
+        gap: 30px;
+
     }
-    .add-banner-button{
+
+    .add-banner-button {
         width: 100%;
     }
-    .second-banner{
+
+    .second-banner {
         padding: 0 16px;
+    }
+
+
+
+    .bmi-content {
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .div-1,
+    .div-2 {
+        width: 100%;
+    }
+    .bmi-calculator-section{
+        padding: 34px 16px;
     }
 
 
